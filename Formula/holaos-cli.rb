@@ -24,8 +24,6 @@ class HolaosCli < Formula
     end
   end
 
-  conflicts_with cask: "holaboss-ai/tap/holaos"
-
   def install
     bin.install Dir["holaos-cli-*"].first => "holaos"
   end

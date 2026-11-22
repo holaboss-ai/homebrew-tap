@@ -15,8 +15,8 @@ cask "holaos" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :monterey"
-  conflicts_with formula: "holaboss-ai/tap/holaos-cli"
+  # macOS 12 or later; Homebrew reads a bare symbol as "this or newer"
+  depends_on macos: :monterey
 
   app "holaOS.app"
   binary "#{appdir}/holaOS.app/Contents/MacOS/holaos"
