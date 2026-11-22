@@ -1,9 +1,9 @@
 cask "holaos" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.1.0"
-  sha256 arm:   "5334cbf85f53a6cb04e9f7cc06fe02737331ba647171a292f8fd8a4bdd6fbdd7",
-         intel: "2c8f36bac21eee5ae3cc425dc73d1279e4b7108c9b7fabb24bce93d541575232"
+  version "0.1.1"
+  sha256 arm:   "4bc9e2d67c755a6e57f34977e15da792cf1dd702b7a14539dbe46dd43b595645",
+         intel: "8471ab6fecdeca07e5a53abf0215a0b02096a14335c6b7d4ad348acd19f7708a"
 
   url "https://github.com/holaboss-ai/holaOS-app/releases/download/v#{version}/holaos-darwin-#{arch}.zip"
   name "holaOS"
@@ -16,6 +16,8 @@ cask "holaos" do
   end
 
   # macOS 12 or later; Homebrew reads a bare symbol as "this or newer"
+  # holaOS replaces itself; brew leaves it to that, and  skips it
+  auto_updates true
   depends_on macos: :monterey
 
   app "holaOS.app"
