@@ -1,9 +1,9 @@
 cask "holaos" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.1.3"
-  sha256 arm:   "5efa61e33c0bca3d7f58dff2369983b25b3a376bb9e7eef8560b12e3a1cbcc5e",
-         intel: "fd39ea513a3492e5ea7574a3f73f34bd0bffc456326a5c9ce9e787ce8558a939"
+  version "0.1.4"
+  sha256 arm:   "739b8ac521cc618984cb2f48b7083149f7d442ecf275fc4c7c4c7e4a98c37a9f",
+         intel: "8bfd35991f1e9f23090b8569a5a5f0a272cddc7cad000fe1321bb4f351924986"
 
   url "https://github.com/holaboss-ai/holaOS-app/releases/download/v#{version}/holaos-darwin-#{arch}.zip"
   name "holaOS"
