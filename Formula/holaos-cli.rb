@@ -1,26 +1,26 @@
 class HolaosCli < Formula
   desc "Run models and agents on your own computer (command line)"
   homepage "https://github.com/holaboss-ai/holaOS-app"
-  version "0.1.7"
+  version "0.1.8"
 
   on_macos do
     on_arm do
-      url "https://github.com/holaboss-ai/holaOS-app/releases/download/v0.1.7/holaos-cli-darwin-arm64"
-      sha256 "34e559dc6bca32f8bfba88cfab2d0f1635c16401d14375713c483e190fe9c4c3"
+      url "https://github.com/holaboss-ai/holaOS-app/releases/download/v0.1.8/holaos-cli-darwin-arm64"
+      sha256 "8900707a2866f8f8a9673b56a5c12c2d49b96437cafe5668414b40f6e51c886a"
     end
     on_intel do
-      url "https://github.com/holaboss-ai/holaOS-app/releases/download/v0.1.7/holaos-cli-darwin-amd64"
-      sha256 "50fca61794d44c58ac3afd1ad9105f580f466cfc47cb106d5243c8407f92662d"
+      url "https://github.com/holaboss-ai/holaOS-app/releases/download/v0.1.8/holaos-cli-darwin-amd64"
+      sha256 "75f1e06a4e5fae3a0e1b97d2b42d04bd17565f4360d2632cc028bb43e4e06d18"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/holaboss-ai/holaOS-app/releases/download/v0.1.7/holaos-cli-linux-arm64"
-      sha256 "34bb3ac9e2565cd4f47edf6f0128a6deecf0ddbb1c73e3e47ee69329d11327ca"
+      url "https://github.com/holaboss-ai/holaOS-app/releases/download/v0.1.8/holaos-cli-linux-arm64"
+      sha256 "4e7cb5b7f0f26288c0699c0295741468417ff3e13d25161806f1a7dd65ab6e34"
     end
     on_intel do
-      url "https://github.com/holaboss-ai/holaOS-app/releases/download/v0.1.7/holaos-cli-linux-amd64"
-      sha256 "106c9a16ea8bf67f4b7df568bd4a8b180141266f487bf40dd5f5d210f1c56ace"
+      url "https://github.com/holaboss-ai/holaOS-app/releases/download/v0.1.8/holaos-cli-linux-amd64"
+      sha256 "7fa231aed087feeabbe6c608e21f3c4aa455e9af2a3627aa0537703b08c15feb"
     end
   end
 
